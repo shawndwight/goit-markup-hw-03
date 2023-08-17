@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root{
+--iris: #4D5AE5;
+--ocean: #404BBF;
+--navy-blue: #2E2F42; 
+--green: #31D0AA;
+--slate: #434455;
+--light-slate: #8E8F99;
+--cornflower: #E7E9FC;
+--cloud:#F4F4FD ;
+--naval-blue-modal: #2E2F42;
+--grey: #2E2F42;
+--white: #FFFFFF;
+--dairy: #FCFCFC;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px; 
+}
+
+.list {
+    text-decoration: none;
+    padding: 0;
+    margin:0;
+}
+
+.logo-link {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color:inherit
+}
+.logo{
+    color:var(--iris);
+}
+.studio-title{
+    color: var(--navyblue, #2E2F42);
+    
+}
+.page {
+    text-decoration: none;
+    color:var(--navy-blue); 
+    font-weight: 500;  
+}
+
+.item {
+    text-decoration: none;
+    color: var(--slate);
+}
+.bg-hero,
+.bg-footer{
+    background-color: var(--navy-blue);
+    color: var(--white, #FFF);
+}
+.hero-title{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+}
+.hero {
+    text-align: center;
+    
+.primary:hover, .primary:focus {
+    background-color:#404BBF
+}
+}
+.primary {
+    color: var(--white, #FFF);
+    font-family: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;/* 150% */
+    letter-spacing: 0.64px;
+    cursor: pointer;
+    border: none;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+
+.benefit-title{
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+.benefit-description {
+    color: var(--slate, #434455);
+}
+.section {
+    color: var(--navy-blue);
+}
+.section-title{
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;/* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team-name{
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;  
+}
+.team-position{ 
+    text-align: center;
+}
+
+.btn-filter{
+    color: var(--iris, #4D5AE5);
+    text-align: center;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--cloud, #F4F4FD);
+
+}
+.btn-filter.current,
+.btn-filter:hover,
+.btn-filter:focus
+{
+    color:var(--white);
+    border-color: var(--ocean);
+    background-color: var(--ocean);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+        0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+        0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.project{
+    text-decoration: none;
+    color: inherit;
+
+}
+.type {
+    color: var(--slate);
+}
+.page.current,
+.page:hover,
+.page:focus,
+.item:focus,
+.item:hover{
+    color:var(--ocean);
+}
+.footer-text{
+    color: white;
+}
+.studio{
+    color: white;
+}
+.footer-text{
+    color: white;
+}
+.studio2{
+    color: white;
+}
+.project-link{
+    text-decoration: none;
+    color: inherit;
+}
+.project-name{
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
