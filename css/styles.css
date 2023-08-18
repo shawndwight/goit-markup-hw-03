@@ -32,7 +32,7 @@ nav{
 
 nav .nav-menu{
     display: flex;
-    gap: 46px;
+    gap: 40px;
     margin-left: 76px;
 }
 
@@ -44,14 +44,21 @@ nav .nav-menu{
 .contacts-menu{ 
     display:flex;
     gap: 40px;
-}
 
+}
+.hero{
+    padding: 188px 472px 292px 472px;
+}
+.hero-title{
+    display: flex;
+}
 
 
 .list {
     list-style: none;
     padding: 0;
     margin:0;
+    display: flex
 }
 
 .logo-link {
